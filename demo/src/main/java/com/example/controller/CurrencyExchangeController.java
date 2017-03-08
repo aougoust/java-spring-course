@@ -22,7 +22,7 @@ public class CurrencyExchangeController {
             Currency.getInstance(from);
             Currency.getInstance(to);
         }catch(IllegalArgumentException ex){
-            throw new RuntimeException(ex.getMessage());
+            throw new RuntimeException("Something went wrong");
         }
         return value + from + " = " + value*multiplier + to;
     }
