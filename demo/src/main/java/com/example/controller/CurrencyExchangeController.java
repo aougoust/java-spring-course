@@ -13,7 +13,7 @@ import java.util.Currency;
 @RestController
 @RequestMapping("/currency")
 public class CurrencyExchangeController {
-    @RequestMapping("/multiply-{value}-{multiplier}")
+    @RequestMapping("/multiply-{value}-{multiplier:.+}")
     public String multiplyCurrency(@PathVariable Long value,
                                    @PathVariable Double multiplier,
                                    @RequestParam("from") String from,
