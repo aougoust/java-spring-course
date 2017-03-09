@@ -15,7 +15,7 @@ import java.util.Currency;
 public class CurrencyExchangeController {
     @RequestMapping("/multiply-{value}-{multiplier}")
     public String multiplyCurrency(@PathVariable Long value,
-                                   @PathVariable Long multiplier,
+                                   @PathVariable Double multiplier,
                                    @RequestParam("from") String from,
                                    @RequestParam("to") String to) throws RuntimeException{
         try{
