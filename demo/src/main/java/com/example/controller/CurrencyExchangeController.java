@@ -12,6 +12,7 @@ import java.util.Currency;
 /**
  * Created by Kacper Augustynowicz on 08.03.2017.
  */
+@Deprecated
 @RestController
 @RequestMapping("/currency")
 public class CurrencyExchangeController {
@@ -29,7 +30,7 @@ public class CurrencyExchangeController {
         return value + from + " = " + value*multiplier + to;
     }
 
-    public CurrencyDTO createCurrencyDTO(Currency c, BigDecimal bd){
+   /* public CurrencyDTO createCurrencyDTO(Currency c, BigDecimal bd){
         return new CurrencyDTO(bd, c);
-    }
+    }*/
 }

@@ -1,16 +1,4 @@
-target/
-!.mvn/wrapper/maven-wrapper.jar
-
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-.gitignore
-src/main/resources/static/
-src/main/resources/templates/
-/mvnw
-/mvnw.cmd
-/.mvn/
-/src/main/resources/
-!/.gitignore
+# Created by .ignore support plugin (hsz.mobi)
+**/target/
+**/*.iml
+**/.idea/

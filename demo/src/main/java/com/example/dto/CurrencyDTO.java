@@ -8,6 +8,7 @@ import java.util.Currency;
 /**
  * Created by Kacper Augustynowicz on 09.03.2017.
  */
+@Deprecated
 @Getter
 @Setter
 @EqualsAndHashCode
